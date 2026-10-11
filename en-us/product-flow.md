@@ -1,19 +1,9 @@
 # 📊 CofreAdmin: End-to-End Product Flow & User Experience
-> **Whitepaper Reference Document: Investor & Technical Overview**  
-> *How CofreAdmin bridges traditional consumer banking UX with self-custodial Web3 financial rails on Base (Ethereum L2).*
+> **Whitepaper Reference Document: Investor & Technical Overview**
 
 ---
 
-## 🧭 Executive Summary for Investors
-
-Traditional Web3 wallets (MetaMask, Phantom) suffer from high churn (>70% drop-off) due to seed phrase hurdles, complex network switching, and requiring native gas tokens (ETH) just to transfer dollars. Conversely, traditional neobanks (Nubank, Revolut) lock users into custodial walled gardens with high foreign exchange fees and zero self-custody.
-
-**CofreAdmin solves this dilemma:**
-A consumer-first **Progressive Web App (PWA)** that feels like a modern neo-banking app on the surface, while functioning as a **100% self-custodial digital dollar wallet (USDC on Base)** underneath. Users never need to touch ETH, manage network IDs, or surrender their funds to a centralized custodian.
-
----
-
-## 🔄 The 6-Stage Investor Product Lifecycle Flow
+## 🔄 The 6-Stage Investor Product Lifecycle Flow (User Flow & Experience)
 
 ```
 ┌────────────────────────────┐       ┌────────────────────────────┐       ┌────────────────────────────┐
@@ -87,30 +77,67 @@ A consumer-first **Progressive Web App (PWA)** that feels like a modern neo-bank
 
 ---
 
+## 🔎 Detailed Stage-by-Stage Breakdown
+
+### 1. Zero-Friction Entry & Instant Distribution
+* **The Problem:** Web3 apps demand wallet browser extensions or seed phrase backups before allowing the user to view a balance.
+* **CofreAdmin Experience:**
+  * **Social Onboarding:** Users sign in with existing social identity providers in under 3 seconds.
+  * **Guest / Offline Mode:** Users can test the full app with zero sign-up; data and wallet initialize 100% locally in browser memory.
+  * **PWA Native Feel:** Bypasses major mobile app store tolls (30%) and censorship risks. Installs directly to mobile home screens with full offline caching and custom icon.
+
+### 2. Invisible Web3 Self-Custody (Zero Crypto Jargon)
+* **The Problem:** Non-technical consumers lose seed phrases or get phished.
+* **CofreAdmin Experience:**
+  * **On-the-Fly Cryptography:** Cryptographic private keys are derived client-side via Web Crypto API and secured at rest using **AES-GCM 256-bit encryption**.
+  * **Zero Custodial Risk:** CofreAdmin servers never receive, transmit, or hold private keys or user funds.
+  * **Hardware Biometrics Integration:** High-security actions (key viewing, large transfers) prompt native device biometric authentication (Face ID, Touch ID, Fingerprint, or OS Screen Lock).
+
+### 3. Frictionless Payments & Cross-Border Rails (Pay & Receive)
+* **The Problem:** Making crypto transfers requires calculating gas units, holding native network tokens in the wallet, and risking clipboard paste errors.
+* **CofreAdmin Experience:**
+  * **Camera QR Scanner:** Built-in video camera scanner reads standard Web3 address formats, payment URI specs, and payment requests with zero external redirects.
+  * **Gas Paid in USDC (No Native Gas Required):** Powered by developer Paymaster infrastructure & ERC-4337 account abstraction compatibility, gas fees are debited directly from the user's USDC balance. Users never need to acquire or bridge native gas tokens.
+  * **Live FX Conversion:** Real-time spot rates display balances and amounts simultaneously in digital dollars ($USDC) and local currency (R$ BRL).
+  * **High-Value Fraud Guard:** Outgoing transactions above $100 USDC (or R$ 500) trigger a mandatory 3-second cool-off countdown and secondary confirmation, preventing rash clicks or scam drains.
+  * **Exportable Clean Receive Cards:** Generates branded, high-contrast QR code cards with EIP-55 checksum verification that users can download as PNG or share directly to messaging channels.
+
+### 4. Smart Vaults & Dollar Budgeting Psychology
+* **The Problem:** Traditional wallets display one single aggregate balance, encouraging users to overspend.
+* **CofreAdmin Experience:**
+  * **Segregated Balance Architecture:** Clear distinction between **Free Spendable Balance** (available for transfers) and **Locked Vault Balance** (protected from impulsive spending).
+  * **Themed Financial Goals:** Users create custom vaults (Emergency Fund, Travel, Tech, Education) with target deadlines and emoji identifiers.
+  * **Behavioral Gamification:** Deposit and withdrawal workflows feature neo-brutalist milestone indicators and confetti celebrations when goals are reached.
+  * **Instant Emergency Release:** Users can unlock funds from their vaults back to their free balance in a single tap with zero penalty fees.
+
+### 5. Living Ledger & Transaction Intelligence (Organized Extrato)
+* **The Problem:** Blockchain explorers show cryptic lists of alphanumeric hashes (`0x3f8a...`) without context, category, or note.
+* **CofreAdmin Experience:**
+  * **Smart Human-Readable Naming:** Users can tag and name any raw on-chain transaction with human memos (e.g., *"Dinner with friends"*, *"Freelance payment"*, *"Supermarket"*).
+  * **Categorization Engine:** Entries are assigned to preset or custom categories (Food, Health, Tech, Salary, Investment) with automatic color-coded badges.
+  * **Exclusion & Privacy Control:** Users can soft-exclude specific internal movements from overall statistics without altering blockchain history.
+  * **Financial Insights & Burn Pace:** Visual metrics display weekly spending delta, daily budget pace, and category breakdown charts.
+  * **Accountant-Ready PDF/CSV Reports:** 1-Click export generates clean, normalized transaction statements stripped of emojis for tax filing and accounting compliance.
+
+### 6. Data Sovereignty, Cloud Backup & Legal Erasure
+* **The Problem:** Cloud apps hold user data hostage; Web3 apps lack cross-device synchronization.
+* **CofreAdmin Experience:**
+  * **Hybrid Sync Architecture:** Local-first IndexedDB/localStorage ensures instant 60 FPS offline performance, coupled with end-to-end user-isolated cloud database synchronization for authenticated users.
+  * **Portable Ownership:** Users can export their full unencrypted private key at any time to import into external Web3 wallets or hardware devices.
+  * **Self-Custody Defense Certificate:** 1-Tap account and cloud deletion permanently purges all operational entries while generating an immutable cryptographic proof timestamp (`legalAuditArchive`), providing full compliance with privacy regulation standards (LGPD/GDPR).
+
+---
+
 ## 📊 Competitive Matrix: Why CofreAdmin Wins
 
-| Feature / Experience | Traditional Neobank (Nubank / Revolut) | Traditional Web3 Wallet (MetaMask / Phantom) | **CofreAdmin** |
+| Feature / Experience | Traditional Neobanks | Traditional Web3 Wallets | **CofreAdmin** |
 | :--- | :---: | :---: | :---: |
 | **Self-Custody (You own the keys)** | ❌ No (Custodial) | ✅ Yes | **✅ Yes (Client-side AES-256)** |
 | **Instant Onboarding (No Seed Phrase)** | ✅ Yes | ❌ No (12-24 words) | **✅ Yes (Social / 1-Tap Guest)** |
-| **Gas Fee Experience** | N/A (Bank fees) | ❌ Must hold native ETH | **✅ Paid natively in USDC** |
+| **Gas Fee Experience** | N/A (Bank fees) | ❌ Must hold native gas token | **✅ Paid natively in USDC** |
 | **PWA (No App Store Approval Risk)** | ❌ No (Native only) | ❌ No (Extension / App) | **✅ Yes (Universal Web App)** |
 | **Dollar Savings Vaults & Milestones** | ⚠️ Partial (Fiat only) | ❌ No | **✅ Native Crypto Vaults** |
 | **Human-Named On-Chain Transactions** | ✅ Yes | ❌ Raw hashes only | **✅ Editable memos & categories** |
 | **Real-time Fiat Dual-Display (BRL/USD)** | ❌ No | ⚠️ Basic | **✅ Live bi-directional ticker** |
 | **Accountant PDF & CSV Export** | ✅ Yes | ❌ External tool needed | **✅ 1-Click built-in export** |
 
----
-
-## 🛠️ Architecture & Technical Moat
-
-1. **L2 Scalability:** Built exclusively on **Base Network** (Coinbase Layer 2), enabling sub-second settlement times and gas fees typically below $0.01 USD.
-2. **Standard Compatibility:** 100% compliant with EVM, ERC-20 (USDC), ERC-4337 (Paymaster account abstraction), and EIP-55 checksum standards.
-3. **Open-Source Integrity:** Licensed under **GNU AGPL-3.0-or-later**, ensuring transparent self-hosting capabilities, zero vendor lock-in, and auditability.
-4. **Client-Side First:** All cryptographic signature generation happens inside the user's browser runtime before broadcasting to the network.
-
----
-
-## 📌 Pitch Deck Slide Summary (Ready to Copy)
-
-> *"CofreAdmin turns Web3 into a consumer banking app. It combines the ease of a modern neobank with the sovereign power of self-custodial digital dollars. Users onboard in 3 seconds, pay zero ETH for gas, organize their daily spending with human-named transactions, and save in dollar vaults — all without surrendering custody to anyone."*
