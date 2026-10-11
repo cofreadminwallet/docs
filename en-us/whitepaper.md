@@ -35,12 +35,12 @@ CofreAdmin is engineered for recurring revenue and high scalability by combining
 
 ### 1.2 Fundraising & Capital Allocation
 
-The project is actively validating core user experience metrics. Capital raised in the current round (Q2) will be deployed strategically to guarantee roadmap execution and operational runway:
+The project is actively validating core user experience metrics. Capital raised in this round will be deployed strategically to guarantee roadmap execution and operational continuity:
 
-* **35% — Product, Infrastructure & Security:** Technical hardening, smart contract/code audits, security updates, and integration of new liquidity rails.
-* **30% — User Acquisition & Growth:** Growth marketing campaigns targeted at crypto-native and Web3-curious segments alongside strategic partnerships.
-* **25% — Core Team & Operations (Runway):** Ensuring dedicated focus from core developers and founders to deliver sequential milestones from Q2 to Q4.
-* **10% — Legal & Compliance:** Regulatory structuring and initial legal support for fiat-to-crypto gateway endpoints.
+- **35% — Product, Infrastructure & Security:** Technical hardening, smart contract/code audits, security updates, and integration of automated fiat-to-USDC liquidity rails.
+- **30% — User Acquisition & Growth:** Growth marketing campaigns targeted at crypto-native and Web3-curious segments alongside strategic onboarding partnerships.
+- **25% — Core Team & Operations (Milestone Execution):** Ensuring dedicated focus from core developers and founders to deliver sequential roadmap milestones across the initial post-funding execution phase.
+- **10% — Legal & Compliance:** Regulatory structuring and legal onboarding support for regional fiat-to-crypto gateway endpoints.
 
 ---
 
@@ -86,7 +86,7 @@ CofreAdmin operates on a strict **Non-Custodial Architecture**:
 | Phase / Status | Relative Timeline | Milestone / Core Deliverable | Primary Dependency |
 | :--- | :--- | :--- | :--- |
 | **Phase 1: Validation & UX** | **Immediate (Ongoing)** | • Base network app deployment with UX refinements driven by early user telemetry and feedback. | Bootstrapping / Self-Funded |
-| **Phase 2: Fundraising** | **Parallel to Phase 1** | • Project submissions to global grant programs, Web3 accelerators, and private investor networks.<br>• Commercial alignment and technical architecture mapping with fiat liquidity partners (Pix/Crypto APIs). | Active Fundraising |
+| **Phase 2: Fundraising** | **Parallel to Phase 1** | • Project submissions to global grant programs, Web3 accelerators, and private investor networks.<br>• Commercial alignment and technical architecture mapping with fiat liquidity partners (Crypto APIs). | Active Fundraising |
 | **Phase 3: Infrastructure** | **Months 1 – 3** *(Post-Funding)* | • **Automated pipelines for instant fiat-to-USDC conversion (Pix & LatAm/Global Ramps).**<br>• Account abstraction upgrades and encrypted native cloud backup protocols tied to the user's personal cloud storage. | Dependent on Capital Injection (Kickstarts Timeline) |
 | **Phase 4: Scale & Security** | **Months 4 – 6** *(Post-Funding)* | • Comprehensive code and structural security audits of the application stack.<br>• Optional yield integration modules for existing vaults, allowing users to safely allocate balances into audited, blue-chip Base DeFi protocols.<br>• Launch of large-scale digital growth campaigns with the Pix on-ramp operating at 100% capacity. | Dependent on Capital Injection |
 | **Phase 5: LatAm Expansion** | **Long-Term Vision** | • Market viability studies and channel expansion into adjacent Latin American regions facing high dollarization demand.<br>• R&D initiatives for bespoke cross-chain integrations on demand. | Cash Flow Positive / Seed Round |
