@@ -87,11 +87,12 @@ CofreAdmin operates on a strict **Non-Custodial Architecture**:
 | :--- | :--- | :--- | :--- |
 | **Phase 1: Validation & UX** | **Immediate (Ongoing)** | • Base network app deployment with UX refinements driven by early user telemetry and feedback. | Bootstrapping / Self-Funded |
 | **Phase 2: Fundraising** | **Parallel to Phase 1** | • Project submissions to global grant programs, Web3 accelerators, and private investor networks.<br>• Commercial alignment and technical architecture mapping with fiat liquidity partners (Pix/Crypto APIs). | Active Fundraising |
-| **Phase 3: Infrastructure** | **Months 1 – 3** *(Post-Funding)* | • **Integration of automated pipelines for instant local currency-to-USDC conversion (Pix Ramp).**<br>• Account abstraction upgrades and encrypted native cloud backup protocols tied to the user's personal cloud storage. | Dependent on Capital Injection (Kickstarts Timeline) |
+| **Phase 3: Infrastructure** | **Months 1 – 3** *(Post-Funding)* | • **Automated pipelines for instant fiat-to-USDC conversion (Pix & LatAm/Global Ramps).**<br>• Account abstraction upgrades and encrypted native cloud backup protocols tied to the user's personal cloud storage. | Dependent on Capital Injection (Kickstarts Timeline) |
 | **Phase 4: Scale & Security** | **Months 4 – 6** *(Post-Funding)* | • Comprehensive code and structural security audits of the application stack.<br>• Optional yield integration modules for existing vaults, allowing users to safely allocate balances into audited, blue-chip Base DeFi protocols.<br>• Launch of large-scale digital growth campaigns with the Pix on-ramp operating at 100% capacity. | Dependent on Capital Injection |
 | **Phase 5: LatAm Expansion** | **Long-Term Vision** | • Market viability studies and channel expansion into adjacent Latin American regions facing high dollarization demand.<br>• R&D initiatives for bespoke cross-chain integrations on demand. | Cash Flow Positive / Seed Round |
 
 *_Note: This roadmap is a living document. Milestone sequences and feature integrations may adapt dynamically to market innovations, regulatory shifts, or infrastructure enhancements that optimize security and UX._
+*_Note: *Note on Payment Infrastructure & Regional Fiat Ramps: Pix (Brazil’s official instant payment system) serves as our primary regional onboarding engine. Planned integrations with third-party payment gateways will support broader LatAm and global options—including cards, wire transfers, and local instant banking (e.g., SPEI in Mexico, PSE in Colombia, ...)—for direct local currency-to-USDC conversion._
 
 ---
 
