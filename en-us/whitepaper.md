@@ -29,7 +29,7 @@ CofreAdmin is engineered for recurring revenue and high scalability by combining
 * **Protocol Micro-Fee (0.2%):** Every Base network transfer incurs an automated micro-fee of **0.2% (minimum $0.05 USD)** routed directly to the project treasury. With 50,000 active users moving an average of $200 USD/month, this generates robust automated recurring revenue.
 * **Fiat On/Off Ramp Spread:** Moving into our local fiat gateway expansion (Q3), the app will monetize via a competitive fx spread on local currency (e.g., BRL) to USDC conversions.
 
-> For more details, see: **[Transparency & Economic Model](https://github.com/cofreadminwallet/docs/blob/main/public-Transparência.md)**.
+> For more details, see: **[Transparency & Economic Model](https://github.com/cofreadminwallet/docs/blob/main/en-us/transparency.md)**.
 
 ---
 
