@@ -28,7 +28,7 @@ O CofreAdmin foi estruturado para gerar receita recorrente e alta escalabilidade
 * **Microtaxa de Protocolo (0.2%):** Cada transferência via rede Base aplica uma microtaxa automática de **0.2% (mínimo de $0.05 USD)** direcionada à tesouraria do projeto. Com 50.000 usuários ativos movimentando uma média de $200 USD/mês, o volume gera receita recorrente automatizada.
 * **Monetização de Entrada/Saída Fiat (On/Off Ramp Spread):** A partir da expansão de conversão local (Q3), o app monetizará através de um *spread* competitivo no câmbio entre Reais (BRL) e USDC.
 
-> Mais detalhes em: **[Transparência & Modelo Econômico](https://github.com/cofreadminwallet/docs/blob/main/public-Transparência.md)**.
+> Mais detalhes em: **[Transparência & Modelo Econômico](https://github.com/cofreadminwallet/docs/blob/main/pt-br/transparencia.md)**.
 
 ---
 
@@ -46,8 +46,8 @@ O projeto está validando ativamente as métricas de experiência do usuário. O
 ## 2. Experiência do Usuário (User Flow)
 
 ```
-[1. Acesso Instantâneo] ──> [2. Autocustódia Transparente] ──> [3. Poupança em Dólar] ──> [4. Transação Sem Gás em ETH]
- Login Social / Google        Chave gerada localmente          Cofres temáticos com meta       Gás pago em USDC
+[1. Acesso Instantâneo] ──> [2. Autocustódia Transparente] ──> [3. Poupança em Dólar]     ──>   [4. Transação Sem Gás em ETH]
+ Login Social                Chave gerada localmente           Cofres temáticos com meta        Gás pago em USDC
  ou Modo Offline             no cofre Web Crypto (AES-256)     rendimento & proteção cambial    via EIP-3009 (Zero ETH)
 ```
 
