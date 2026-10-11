@@ -46,9 +46,9 @@ O projeto está validando ativamente as métricas de experiência do usuário. O
 ## 2. Experiência do Usuário (User Flow)
 
 ```
-[1. Acesso Instantâneo] ──> [2. Autocustódia Transparente] ──> [3. Poupança em Dólar]     ──>   [4. Transação Sem Gás em ETH]
- Login Social                Chave gerada localmente           Cofres temáticos com meta        Gás pago em USDC
- ou Modo Offline             no cofre Web Crypto (AES-256)     rendimento & proteção cambial    via EIP-3009 (Zero ETH)
+[1. Acesso Instantâneo] ──> [2. Autocustódia Transparente] ──> [3. Cofres]   ──>   [4. Transação Sem Gás em ETH]
+ Login Social                Chave gerada localmente           Cofres temáticos     Gás pago em USDC
+ ou Modo Offline             no cofre Web Crypto (AES-256)      e metas             via EIP-3009 (Zero ETH)
 ```
 
 1. **Entrada em 1 Clique (Social Onboarding):**
