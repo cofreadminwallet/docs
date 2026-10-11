@@ -93,7 +93,7 @@ CofreAdmin operates on a strict **Non-Custodial Architecture**:
 
 *_Note: This roadmap is a living document. Milestone sequences and feature integrations may adapt dynamically to market innovations, regulatory shifts, or infrastructure enhancements that optimize security and UX._
 
-*_Note: On Payment Infrastructure & Regional Fiat Ramps: Pix (Brazil’s official instant payment system) serves as our primary regional onboarding engine. Planned integrations with third-party payment gateways will support broader LatAm and global options—including cards, wire transfers, and local instant banking (e.g., SPEI in Mexico, PSE in Colombia, ...)—for direct local currency-to-USDC conversion._
+*_Note on Payment Infrastructure: Pix (Brazil’s official instant payment system) serves as our primary regional onboarding engine. Planned integrations with third-party payment gateways will support broader LatAm and global(Phase 5: LatAm Expansion) options—including cards, wire transfers, and local instant banking (e.g., SPEI in Mexico, PSE in Colombia)—for direct local currency-to-USDC conversion._
 
 ---
 
