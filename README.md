@@ -4,7 +4,7 @@ All contents, whitepapers, documentation, diagrams, and assets in this repositor
 
 ---
 <small>
-## 💖 Support / Donate
+💖 Support / Donate
 
 Support the development of **CofreAdmin Documentation**:
 
