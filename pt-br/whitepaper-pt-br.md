@@ -32,14 +32,14 @@ O CofreAdmin foi estruturado para gerar receita recorrente e alta escalabilidade
 
 ---
 
-### 1.2 Oportunidade de Captação & Alocação de Recursos (Fundraising)
+### 1.2 Captação de Recursos e Alocação de Capital
 
-O projeto encontra-se validando a experiência de usuário. Os recursos captados na rodada (Q2) serão distribuídos estrategicamente para garantir a execução do roadmap e a sustentabilidade da operação:
+O projeto está validando ativamente as métricas de experiência do usuário. O capital captado nesta rodada será alocado estrategicamente para garantir a execução do roadmap e a continuidade operacional:
 
-* **35% — Produto, Infraestrutura & Segurança:** Refinamento técnico, auditorias, atualizações segurança, e homologação de novos canais de liquidez.
-* **30% — Aquisição de Usuários & Geração de Demanda (Growth):** Estratégias de marketing focadas no ecossistema cripto/Web3 e parcerias estratégicas.
-* **25% — Core Team & Operacional (Runway):** Garantia de dedicação exclusiva dos desenvolvedores e fundadores principais para assegurar as entregas contínuas previstas do Q2 ao Q4.
-* **10% — Jurídico & Compliance:** Estruturação regulatória inicial e suporte legal para as pontas de conversão Fiat/Crypto.
+- **35% — Produto, Infraestrutura e Segurança:** Fortalecimento técnico, auditorias de contratos inteligentes/código, atualizações de segurança e integração de trilhos de liquidez automatizados de fiat para USDC.
+- **30% — Aquisição de Usuários e Crescimento:** Campanha de marketing de crescimento voltada para segmentos cripto-nativos e entusiastas Web3, além de parcerias estratégicas de onboarding.
+- **25% — Equipe Principal e Operações (Execução de Milestones):** Garantia de foco e dedicação dos desenvolvedores e fundadores para a entrega sequencial dos marcos (milestones) do roadmap ao longo da fase inicial pós-financiamento.
+- **10% — Jurídico e Conformidade (Compliance):** Estruturação regulatória e suporte jurídico inicial para integrações com os endpoints de gateways regionais fiat-cripto.
 
 ---
 
