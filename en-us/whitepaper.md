@@ -47,22 +47,24 @@ The project is actively validating core user experience metrics. Capital raised 
 ## 2. User Flow & Experience
 
 ```
-[1. Instant Access] ──> [2. Seamless Self-Custody] ──> [3. Dollar Savings]    ──>    [4. Gasless TXs in ETH]
- Social Login            Locally-generated keys        Themed vaults with yields     Gas paid natively in USDC
- or Guest Mode           via Web Crypto (AES-256)      & fiat-pegged protection      via EIP-3009 (Zero ETH)
+┌────────────────────────────┐       ┌────────────────────────────┐       ┌────────────────────────────┐
+│   1. ZERO-FRICTION         │  ───> │   2. INVISIBLE WEB3        │  ───> │   3. FRICTIONLESS PAY &    │
+│      ENTRY & ACCESS        │       │      SELF-CUSTODY          │       │      RECEIVE (PAYMENTS)    │
+│ • 1-Tap Google / Discord   │       │ • Client-side AES-GCM 256  │       │ • Instant Camera QR & 0x   │
+│ • 1-Tap Guest/Offline mode │       │ • Instant Base L2 setup    │       │ • Gas paid in USDC (No ETH)│
+│ • PWA Install (0% store fee│       │ • Device Biometrics/PIN    │       │ • High-Value Safety Guard  │
+└────────────────────────────┘       └────────────────────────────┘       └────────────────────────────┘
+                                                                                        │
+                                                                                        ▼
+┌────────────────────────────┐       ┌────────────────────────────┐       ┌────────────────────────────┐
+│   6. DATA SOVEREIGNTY      │  <─── │   5. FINANCIAL INSIGHTS    │  <─── │   4. SMART VAULTS &        │
+│      & ASSET EXPORT        │       │      & NAMED LEDGER        │       │      DOLLAR SAVINGS        │
+│ • Full Private Key export  │       │ • Turn 0x hashes to Memos  │       │ • Multi-Goal Themed Vaults │
+│ • Encrypted Cloud Sync     │       │ • Category tagging & icons │       │ • Free vs Locked balance   │
+│ • 1-Click LGPD Erasure     │       │ • Analytics & PDF Reports  │       │ • Micro-reward animations  │
+└────────────────────────────┘       └────────────────────────────┘       └────────────────────────────┘
 ```
-
-1. **1-Click Social Onboarding:**  
-   Users access the WebApp and log in via existing Google or Discord credentials (or drop right into Guest Mode). No confusing seed phrase memorization is required to get started.
-
-2. **Automated Base L2 Wallet Generation:**  
-   A Base-compatible EVM wallet is instantly and silently spun up directly in the user's browser, featuring a public address and complete local isolation.
-
-3. **Smart Goal Vaults:**  
-   Users organize life goals (e.g., *Emergency Fund*, *Travel*, *Education*) by allocating dollar balances (USDC) with real-time local currency valuation.
-
-4. **Effortless Send & Receive:**  
-   Transferring USDC is as simple as scanning a QR code or pasting an address. The app natively supports gas payments directly in USDC (EIP-3009 Meta-Transactions), completely removing the need for users to hold native ETH for gas.
+> For more details, see: **[Product Flow & User Experience](https://github.com/cofreadminwallet/docs/blob/main/en-us/product-flow.md)**.
 
 ---
 
