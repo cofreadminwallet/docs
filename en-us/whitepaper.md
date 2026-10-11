@@ -50,7 +50,7 @@ The project is actively validating core user experience metrics. Capital raised 
 ┌────────────────────────────┐       ┌────────────────────────────┐       ┌────────────────────────────┐
 │   1. ZERO-FRICTION         │  ───> │   2. INVISIBLE WEB3        │  ───> │   3. FRICTIONLESS PAY &    │
 │      ENTRY & ACCESS        │       │      SELF-CUSTODY          │       │      RECEIVE (PAYMENTS)    │
-│ • 1-Tap Google / Discord   │       │ • Client-side AES-GCM 256  │       │ • Instant Camera QR & 0x   │
+│ • 1-Tap Social Login       │       │ • Client-side AES-GCM 256  │       │ • Instant Camera QR & 0x   │
 │ • 1-Tap Guest/Offline mode │       │ • Instant Base L2 setup    │       │ • Gas paid in USDC (No ETH)│
 │ • PWA Install (0% store fee│       │ • Device Biometrics/PIN    │       │ • High-Value Safety Guard  │
 └────────────────────────────┘       └────────────────────────────┘       └────────────────────────────┘
