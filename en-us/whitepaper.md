@@ -91,9 +91,9 @@ CofreAdmin operates on a strict **Non-Custodial Architecture**:
 | **Phase 4: Scale & Security** | **Months 4 – 6** *(Post-Funding)* | • Comprehensive code and structural security audits of the application stack.<br>• Optional yield integration modules for existing vaults, allowing users to safely allocate balances into audited, blue-chip Base DeFi protocols.<br>• Launch of large-scale digital growth campaigns with the Pix on-ramp operating at 100% capacity. | Completion of Phase 3 & Security/Marketing Budget |
 | **Phase 5: LatAm Expansion** | **Long-Term Vision** | • Market viability studies and channel expansion into adjacent Latin American regions facing high dollarization demand.<br>• R&D initiatives for bespoke cross-chain integrations on demand. | Cash Flow Positive / Seed Round |
 
-*_Note: This roadmap is a living document. Milestone sequences and feature integrations may adapt dynamically to market innovations, regulatory shifts, or infrastructure enhancements that optimize security and UX._
-
 *_Note on Payment Infrastructure: Pix (Brazil’s official instant payment system) serves as our primary regional onboarding engine. Planned integrations with third-party payment gateways will support broader LatAm and global(Phase 5: LatAm Expansion) options—including cards, wire transfers, and local instant banking (e.g., SPEI in Mexico, PSE in Colombia)—for direct local currency-to-USDC conversion._
+
+*_Note: This roadmap is a living document. Milestone sequences and feature integrations may adapt dynamically to market innovations, regulatory shifts, or infrastructure enhancements that optimize security and UX._
 
 ---
 
