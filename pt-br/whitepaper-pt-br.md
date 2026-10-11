@@ -1,4 +1,4 @@
-# CofreAdmin • Executive Whitepaper & Pitch Deck
+# CofreAdmin • Executive Whitepaper
 **Financial Operating System & Smart Web3 Savings Vault for Emerging Markets**  
 *Tese de Investimento, Arquitetura de Crescimento e Oportunidade de Mercado na Base L2*  
 *Target Ecosystem: Base L2 `Chain ID 8453` (Coinbase) • Stablecoin: Native USDC `0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913` (Circle)*  
