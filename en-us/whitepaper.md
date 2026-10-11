@@ -48,7 +48,7 @@ The project is actively validating core user experience metrics. Capital raised 
 
 ```
 [1. Instant Access] ──> [2. Seamless Self-Custody] ──> [3. Dollar Savings] ──> [4. Gasless TXs in ETH]
- Social Login    Locally-generated keys        Themed vaults with yields     Gas paid natively in USDC
+ Social Login            Locally-generated keys        Themed vaults with yields     Gas paid natively in USDC
  or Guest Mode            via Web Crypto (AES-256)      & fiat-pegged protection      via EIP-3009 (Zero ETH)
 ```
 
