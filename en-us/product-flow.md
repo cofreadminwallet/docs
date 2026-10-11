@@ -136,8 +136,8 @@
 | **Instant Onboarding (No Seed Phrase)** | ✅ Yes | ❌ No (12-24 words) | **✅ Yes (Social / 1-Tap Guest)** |
 | **Gas Fee Experience** | N/A (Bank fees) | ❌ Must hold native gas token | **✅ Paid natively in USDC** |
 | **PWA (No App Store Approval Risk)** | ❌ No (Native only) | ❌ No (Extension / App) | **✅ Yes (Universal Web App)** |
-| **Dollar Savings Vaults & Milestones** | ⚠️ Partial (Fiat only) | ❌ No | **✅ Native Crypto Vaults** |
+| **Dollar Savings Vaults & Milestones** | ⚠️ Partial (Fiat only) | ❌ No | **✅ Native USDC Vaults** |
 | **Human-Named On-Chain Transactions** | ✅ Yes | ❌ Raw hashes only | **✅ Editable memos & categories** |
-| **Real-time Fiat Dual-Display (BRL/USD)** | ❌ No | ⚠️ Basic | **✅ Live bi-directional ticker** |
+| **Real-time Local Fiat / USDC Ticker** | ❌ No | ⚠️ Basic (USD only) | **✅ Live Local Fiat ⇄ USDC Conversion** |
 | **Accountant PDF & CSV Export** | ✅ Yes | ❌ External tool needed | **✅ 1-Click built-in export** |
 
