@@ -9,7 +9,7 @@
 ┌────────────────────────────┐       ┌────────────────────────────┐       ┌────────────────────────────┐
 │   1. ZERO-FRICTION         │  ───> │   2. INVISIBLE WEB3        │  ───> │   3. FRICTIONLESS PAY &    │
 │      ENTRY & ACCESS        │       │      SELF-CUSTODY          │       │      RECEIVE (PAYMENTS)    │
-│ • 1-Tap Google / Discord   │       │ • Client-side AES-GCM 256  │       │ • Instant Camera QR & 0x   │
+│ • 1-Tap Social Login       │       │ • Client-side AES-GCM 256  │       │ • Instant Camera QR & 0x   │
 │ • 1-Tap Guest/Offline mode │       │ • Instant Base L2 setup    │       │ • Gas paid in USDC (No ETH)│
 │ • PWA Install (0% store fee│       │ • Device Biometrics/PIN    │       │ • High-Value Safety Guard  │
 └────────────────────────────┘       └────────────────────────────┘       └────────────────────────────┘
@@ -31,7 +31,7 @@
 ### 1. Zero-Friction Entry & Instant Distribution
 * **The Problem:** Web3 apps demand wallet browser extensions or seed phrase backups before allowing the user to view a balance.
 * **CofreAdmin Experience:**
-  * **Social Onboarding:** Users sign in with existing Google or Discord accounts in under 3 seconds.
+  * **Social Onboarding:** Users sign in with existing Social Login accounts in under 3 seconds.
   * **Guest / Offline Mode:** Users can test the full app with zero sign-up; data and wallet initialize 100% locally in browser memory.
   * **PWA Native Feel:** Bypasses the 30% Apple/Google App Store toll and censorship risks. Installs directly to iOS & Android home screens with full offline caching and custom icon.
 
